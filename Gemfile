@@ -3,6 +3,7 @@ source 'http://rubygems.org'
 ruby '1.9.3'
 gem 'rails', '4.0.0'
 gem 'pg'
+gem 'rails_12factor'
 
 group :assets do
   gem 'sass-rails',   '~> 4.0.0'
