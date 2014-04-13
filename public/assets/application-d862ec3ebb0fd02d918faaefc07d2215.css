@@ -1,0 +1,1155 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+body,h1,h2,h3,h4,h5,h6,p,img,a,ul,li,header,nav,img,main,section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: sans-serif;
+  vertical-align: baseline;
+  text-decoration: none;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+}
+
+.centered {
+  margin: auto;
+  align: center;
+  text-align: center;
+}
+
+.main {
+  background: white;
+  width: 1000px !important;
+  margin: 20px auto;
+  min-width: 1000px;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+#errors-notices {
+  background: white;
+  width: 1000px;
+  margin: 20px auto;
+  min-width: 1000px;
+  border-radius: 5px;
+  border: 3px solid red;
+  padding: 10px;
+}
+
+#logo-banner {
+  display: inline-block;
+  float: left;
+  height: 45px;
+  vertical-align: middle;
+  line-height: 45px
+}
+
+#site-logo > ul > li > a:link {
+  color: black;
+}
+
+#site-logo > ul > li > a:visited {
+  color: black;
+}
+
+#user-banner {
+  display: inline-block;
+  float: right;
+  height: 45px;
+  vertical-align: middle;
+  line-height: 45px
+}
+
+nav > ul > li {
+  float: left;
+  margin: 0 5px;
+}
+
+#space-booking-rates {
+  width: 250px;
+  display: block;
+}
+
+.sidebar {
+  display: inline-block;
+}
+
+.map_container {
+  padding: 6px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ccc #ccc #999 #ccc;
+  -webkit-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+  -moz-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+  box-shadow: rgba(64, 64, 64, 0.1) 0 2px 5px;
+  width: 200px;
+  margin: auto;
+}
+
+.gmaps4rails_map {
+  width: 200px;
+  height: 200px;
+}
+
+.bing_map {
+   position: absolute;
+   top: 20;
+   left: 10;
+   width: 400px;
+   height: 400px;
+   border:#555555 2px solid;
+}
+/* line 5, /Users/apple/cloudbnb/app/assets/stylesheets/bookings.css.scss */
+header.space-bookings-index {
+  display: block;
+  margin: auto;
+  width: 900px;
+}
+
+/* line 11, /Users/apple/cloudbnb/app/assets/stylesheets/bookings.css.scss */
+header.space-bookings-index > div {
+  display: inline-block;
+  margin: 0 50px;
+}
+
+/* line 16, /Users/apple/cloudbnb/app/assets/stylesheets/bookings.css.scss */
+.user-image {
+  width: 60px;
+  height: 60px;
+}
+#itinerary {
+  width: 790px;
+  margin: auto;
+}
+
+#itinerary-header {
+  float: left;
+}
+
+#itinerary-header > a > img {
+  margin: 0;
+  padding: 0;
+  width: 289px;
+  height: 289px;
+
+}
+
+#itinerary-table {
+  border: 1px solid #CCC;
+  border-collapse:collapse;
+  border-radius: 10px;
+  float: left;
+  width: 500px;
+}
+
+#itinerary-table > tbody > tr:first-child > td {
+  text-align: center !important;
+}
+
+#itinerary-table > tbody > tr > td {
+  padding: 3px;
+}
+
+#itinerary-table > tbody > tr > td:first-child {
+  text-align: left;
+  font-weight: lighter;
+}
+
+#itinerary-table > tbody > tr > td:last-child {
+  text-align: right;
+  font-weight: bold;
+}
+
+#disclaimer {
+  border-radius: 10px;
+  border: 3px solid red;
+  width: 775px;
+  height: auto;
+  padding: 10px;
+  padding-right: 0px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.page-header {
+  font-size: 40px;
+  font-weight: bold;
+  color: #CCC;
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#user-bookings-table {
+  margin: auto;
+  border: 1px solid #CCC;
+  border-collapse:collapse;
+  border-radius: 10px;
+}
+
+#user-bookings-table > tbody > tr > td {
+  text-align: center;
+  padding: 3px;
+}
+/* line 1, /Users/apple/cloudbnb/app/assets/stylesheets/calendar.css.scss */
+.special-day {
+  color: #CCC;
+  background: #AAA;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+/* line 10, /Users/apple/cloudbnb/app/assets/stylesheets/calendar.css.scss */
+.normal-day {
+  background: #EEE;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+/* line 18, /Users/apple/cloudbnb/app/assets/stylesheets/calendar.css.scss */
+.otherMonth {
+  color: #CCC;
+  background: #666;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+/* line 27, /Users/apple/cloudbnb/app/assets/stylesheets/calendar.css.scss */
+.calendar {
+  display: inline-block;
+}
+
+/* line 31, /Users/apple/cloudbnb/app/assets/stylesheets/calendar.css.scss */
+.monthName {
+  background: white;
+}
+/* BLUE */
+/* line 4, /Users/apple/cloudbnb/app/assets/stylesheets/colors.css.scss */
+.blue {
+  color: white !important;
+  background: #1a9ce2;
+}
+
+/* line 9, /Users/apple/cloudbnb/app/assets/stylesheets/colors.css.scss */
+.blue:hover {
+  background: #2badf3;
+}
+
+/* YELLOW-ORANGE */
+/* line 15, /Users/apple/cloudbnb/app/assets/stylesheets/colors.css.scss */
+.yellow-orange {
+  color: black !important;
+  background: #fed231;
+}
+
+/* line 20, /Users/apple/cloudbnb/app/assets/stylesheets/colors.css.scss */
+.yellow-orange:hover {
+  background: #fce359;
+}
+
+/* links */
+/* line 26, /Users/apple/cloudbnb/app/assets/stylesheets/colors.css.scss */
+a {
+  color: #1d95cb;
+}
+
+/* line 30, /Users/apple/cloudbnb/app/assets/stylesheets/colors.css.scss */
+a:visited {
+  color: #551a8b;
+}
+
+/* LIGHT GRAY */
+/* line 36, /Users/apple/cloudbnb/app/assets/stylesheets/colors.css.scss */
+.light-gray {
+  color: #848484;
+}
+
+/* line 40, /Users/apple/cloudbnb/app/assets/stylesheets/colors.css.scss */
+.dark-gray {
+  color: #393c3d;
+}
+/* line 1, /Users/apple/cloudbnb/app/assets/stylesheets/directions.css.scss */
+.left {
+  float: left;
+}
+
+/* line 5, /Users/apple/cloudbnb/app/assets/stylesheets/directions.css.scss */
+.right {
+  float: right;
+}
+
+#site-logo {
+  color: #1a9ce2 !important;
+  display: inline;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 25px;
+}
+
+#site-header {
+  background-image: -webkit-linear-gradient(top, rgb(255, 255, 255) 0%, rgb(249, 249, 249) 49%, rgb(242, 242, 242) 51%, rgb(240, 240, 240) 100%);
+  height: 45px;
+  width: 100%;
+  min-width: 768px;
+  border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+#user-nav {
+  height: 45px;
+  position: relative;
+}
+
+#user-nav > ul {
+}
+
+#user-nav > ul > li {
+  float: left;
+  height: 45px;
+  line-height: 45px;
+  vertical-align: middle;
+}
+
+#user-nav > #user-dropdown {
+  position: absolute;
+  display: none;
+  top: 45px;
+  right: 0px;
+  z-index: 10;
+}
+
+#user-nav > #user-dropdown > li > a {
+  color: black;
+}
+
+#user-nav:hover {
+  background: #EEEEEE;
+  border-radius: 5px;
+}
+
+#user-nav:hover > #user-dropdown {
+  display: block;
+}
+
+#user-nav:hover > #user-dropdown > li {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  width: 138px;
+  height: 31px;
+}
+
+#user-nav:hover > #user-dropdown > li:first-child {
+  border-top: 1px solid #ccc;
+}
+
+#user-nav:hover > #user-dropdown > li > a {
+  padding-left: 10px;
+  line-height: 31px;
+  vertical-align: middle;
+  background: white;
+  display: block;
+  float: none;
+  border-top: 0;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#user-nav:hover > #user-dropdown > li > a:first-child {
+}
+
+#user-nav:hover > #user-dropdown > li > a:hover {
+  background: #00b0ff;
+  color: white;
+}
+
+#header-button {
+  padding: 7px 10px !important;
+  font-size: 11px !important;
+  border-radius: 4px;
+  color: rgb(60,60,60) !important;
+  background-image: -webkit-linear-gradient(top, rgb(253, 228, 76) 0%, rgb(243, 198, 19) 100%);
+}
+
+#header-search-input {
+  border-radius: 3px;
+  color: rgb(90,90,90);
+  font-size: 13px;
+  width: 280px;
+}
+
+#sign-up-header, #log-in-header, #username {
+  color: rgb(132, 132, 132);
+  font-size: 11px;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-left:  10px;
+}
+
+#header-user-image {
+  margin-top: 10px;
+}
+/* line 1, /Users/apple/cloudbnb/app/assets/stylesheets/images.css.scss */
+img {
+  padding: 5px;
+}
+
+/* line 5, /Users/apple/cloudbnb/app/assets/stylesheets/images.css.scss */
+.user-image-medium, .space-image-medium, .image-medium {
+  width: 300px;
+  height: 300px;
+}
+
+/* line 10, /Users/apple/cloudbnb/app/assets/stylesheets/images.css.scss */
+.user-image-medium, .space-image-medium {
+  width: 200px;
+  height: 200px;
+}
+
+/* line 15, /Users/apple/cloudbnb/app/assets/stylesheets/images.css.scss */
+.user-image-thumb, .space-image-thumb {
+  width: 35px;
+  height: 35px;
+  border-radius: 9px;
+}
+
+/* line 21, /Users/apple/cloudbnb/app/assets/stylesheets/images.css.scss */
+.image-micro-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 9px;
+}
+
+/* line 28, /Users/apple/cloudbnb/app/assets/stylesheets/images.css.scss */
+.space-image {
+  float: left;
+  width: 118px;
+  height: 77px;
+  padding: 3px;
+  border: 1px solid #DDD;
+  border-radius: 2px;
+}
+
+/* line 37, /Users/apple/cloudbnb/app/assets/stylesheets/images.css.scss */
+.host-image {
+  float: left;
+}
+/* CLEAR STUFF */
+/* line 4, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+.button, select, input {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+/* line 10, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+label {
+  color: #5a5a5a;
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+  margin-right: 4px;
+}
+
+/* line 18, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+label.top {
+  vertical-align: top;
+  padding-top: 8px;
+}
+
+/* line 23, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+.button, select {
+  font-size: 15px;
+  border-radius: 2px;
+  margin: 6px 0px;
+}
+
+/* line 29, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+input, textarea {
+  font-size: 15px;
+  border: 1px solid #cccccc;
+  margin: 4px 0;
+}
+
+/* line 35, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+input:focus, textarea:focus {
+  border: 1px solid #D76D99;
+  outline: 1px solid #DF67A2;
+}
+
+/* line 40, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+.input-large {
+  padding: 10px 19px;
+}
+
+/* line 44, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+.input-medium {
+  padding: 4.4px 9.9px;
+}
+
+/* line 48, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+.input-small {
+  padding: 3px;
+}
+
+/* line 52, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+.input-long {
+  width: 300px;
+}
+
+/* BUTTONS */
+/* line 58, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+.button, select {
+  font-weight: bold;
+  border-radius: 2px;
+  margin: 6px 0px;
+  border: 0;
+  outline: 0;
+}
+
+/* line 66, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+.button:focus {
+  border: 0;
+  outline: 0;
+}
+
+/* line 71, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+.label-offset-button {
+  margin-left: 207px;
+  display: inline-block;
+}
+
+/* TEXT INPUT */
+/* line 78, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+.text-input {
+  display: inline-block;
+  background: white;
+  outline: none;
+}
+
+/* TEXTAREA */
+/* DATE INPUT */
+/* line 92, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+.date-input {
+  -webkit-appearance: none;
+}
+
+/* line 96, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+.date-input::-webkit-inner-spin-button {
+  display: none;
+}
+
+/* SELECT INPUT */
+/* line 102, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+select {
+  background: #DDD;
+  -webkit-appearance: none;
+  padding: 9px 18px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  background: url(down-arrow.png) no-repeat right #dddddd;
+  padding-right: 33px;
+}
+
+/* NUMBER INPUT */
+/* line 115, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* checkbox */
+/* line 123, /Users/apple/cloudbnb/app/assets/stylesheets/inputs.css.scss */
+.checkbox-li {
+  width: 250px;
+  display: inline-block;
+  float: left;
+}
+
+#map-canvas {
+  width: 248px;
+  height: 248px;
+  margin: auto;
+}
+
+#space-amenities {
+  width: 550px;
+  display: inline-block;
+}
+.banned {
+  border: 5px solid red;
+  padding: 0;
+  margin: 5px;
+}
+
+.not-banned {
+  border: 5px solid blue;
+  padding: 0;
+  margin: 5px;
+}
+/* line 5, /Users/apple/cloudbnb/app/assets/stylesheets/root.css.scss */
+#splash-container {
+  background: black;
+  margin: auto;
+  min-width: 1024px;
+}
+
+/* line 11, /Users/apple/cloudbnb/app/assets/stylesheets/root.css.scss */
+#splash {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+/* line 19, /Users/apple/cloudbnb/app/assets/stylesheets/root.css.scss */
+#root-page-search-bar-container {
+  position: absolute;
+  min-width: 615px;
+  top: 250px;
+  right: 300px;
+}
+
+/* line 26, /Users/apple/cloudbnb/app/assets/stylesheets/root.css.scss */
+#root-page-search-bar-container > h1, h3 {
+  font-weight: bold;
+  color: white;
+}
+
+/* line 31, /Users/apple/cloudbnb/app/assets/stylesheets/root.css.scss */
+#root-page-search-bar-container > h1 {
+  font-size: 48px;
+  text-shadow: 0px 0px 40px black;
+  -webkit-text-stroke: 0.2px #333;
+}
+
+/* line 37, /Users/apple/cloudbnb/app/assets/stylesheets/root.css.scss */
+#root-page-search-bar-container > h3 {
+  font-size: 20px;
+  padding-bottom: 15px;
+  text-shadow: 0px 0px 40px black;
+  -webkit-text-stroke: 0.2px #333;
+}
+
+/* line 44, /Users/apple/cloudbnb/app/assets/stylesheets/root.css.scss */
+#root-page-search-bar {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  border: 1px solid black;
+  height: 50px;
+  width: auto;
+}
+
+/* line 52, /Users/apple/cloudbnb/app/assets/stylesheets/root.css.scss */
+#header-button {
+  font-size: 15px;
+  margin: 5px;
+}
+
+/* line 57, /Users/apple/cloudbnb/app/assets/stylesheets/root.css.scss */
+#root-input-city-name {
+  margin-left: 5px;
+  width: 320px;
+}
+
+/* line 62, /Users/apple/cloudbnb/app/assets/stylesheets/root.css.scss */
+#search-button {
+  margin-right: 5px;
+}
+h4.sidebar-section-header {
+  border: 1px solid #CCC;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.901961) 0%, rgba(250, 250, 250, 0.901961) 100%);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px -2px, rgb(0, 0, 0) 0px 0px 0px 0px;
+  padding: 5px 15px;
+  font-weight: bold;
+}
+
+h4.sidebar-section-header:first-child {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top: 1px solid #CCC;
+}
+
+.sidebar-filters {
+  color: #333;
+}
+
+.sidebar-section {
+  border-right: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+}
+
+.sidebar-filters > .sidebar-section > ul {
+  margin: 0 8px;
+}
+
+.sidebar-filters > .sidebar-section > ul > li:first-child {
+  margin-top: 8px;
+}
+
+.sidebar-filters > .sidebar-section > ul > li:last-child {
+  margin-bottom: 8px;
+}
+
+.sidebar-filters > .sidebar-section > input[type=date] {
+}
+
+.sidebar-filters > .sidebar-section > input[type=select] {
+}
+
+#space-index-sidebar-filter-button {
+  width: 100%;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  margin-top: 0;
+  padding: 10px 0;
+}
+
+.sidebar-full-width {
+  width: 242px;
+  border-right: 0;
+  border-left: 0;
+  border: 0;
+  margin: 0 !important;
+  padding: 5px, 0
+}
+
+.sidebar-half-width {
+  width: 95px;
+  float: left;
+  border-right: 0;
+  border-left: 0;
+  border: 0;
+  margin: 0 !important;
+  padding: 3px 0px;
+}
+
+.sidebar-half-width:first-child {
+  padding-left: 3px;
+  text-align: right;
+}
+
+.price-range-wrapper {
+  width: 220px;
+  margin: auto !important;
+}
+
+.price-range-wrapper > p {
+  display: inline-block;
+  float: left;
+}
+.pagination {
+  text-align: center;
+  margin: 10px;
+}
+
+.pagination > span {
+  display: inline-block;
+  height: 18px;
+  padding: 3px 0px;
+  margin: 0 3px;
+  font-weight: bold;
+  background: #ccc;
+  text-align: center;
+  background: #1a9ce2;
+  border-radius: 3px;
+}
+
+.pagination > span:hover {
+  background: #2badf3;
+}
+
+.pagination > span > a {
+  padding: 3px 10px;
+  color: white;
+}
+
+.pagination > span.current {
+  background: #fed231;
+  padding: 3px 10px;
+}
+
+.pagination > span.current:hover {
+  background: #fce359;
+}
+#space-show-header {
+  margin-bottom: 20px;
+}
+
+#space-show-title {
+  color: #333;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#space-show-info {
+  color: #333;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.available-amenity, .unavailable-amenity {
+  float: left;
+  width: 180px;
+  position: relative;
+  margin-left: 20px;
+  margin-top: 7px;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.available-amenity:before {
+  background: url("green_check_red_cross.jpg");
+  content: " ";
+  position: absolute;
+  height:20px;
+  width:20px;
+  top: -2px;
+  left: -23px;
+}
+
+.unavailable-amenity:before {
+  background: url("green_check_red_cross.jpg");
+  background-position: -20px 0px;
+  content: " ";
+  position: absolute;
+  height:20px;
+  width:20px;
+  top: -2px;
+  left: -23px;
+}
+#description {
+  width: 400px;
+  word-wrap: break-word
+}
+
+#description, #house-rules {
+  font-size: 13px;
+  float: left;
+}
+
+.tab-data {
+  float: right;
+  border: 1px solid #CCC;
+  border-collapse:collapse;
+  border-radius: 10px;
+}
+
+tbody {
+}
+
+.tab-data > tr {
+}
+
+.table-row-title {
+  width: 100px;
+  font-size: 13px;
+  padding: 5px;
+}
+
+.table-row-data {
+  width: 100px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: right;
+  padding: 5px;
+}
+
+tr:nth-child(odd) {
+  background: #EEE;
+}
+
+tr:first-child > .table-row-title {
+  border-top-left-radius: 9px;
+}
+
+tr:last-child > .table-row-title {
+  border-bottom-left-radius: 9px;
+}
+
+tr:first-child > .table-row-data {
+  border-top-right-radius: 9px;
+}
+
+tr:last-child > .table-row-data {
+  border-bottom-right-radius: 9px;
+}
+#top-of-booking-sidebar {
+  margin: 0;
+}
+
+.sidebar > .sidebar-section > .price-wrapper {
+  float: left;
+  padding: 10px;
+}
+
+.sidebar > .sidebar-section > .price-wrapper > .price-data {
+  font-size: 36px;
+}
+
+.sidebar > .sidebar-section > .price-wrapper > .price-data > sup {
+  font-size: 24px;
+}
+
+.sidebar > .sidebar-section > .price-wrapper > div {
+  display: block;
+  font-size: 13px;
+  text-align: right;
+}
+
+#space-show-sidebar-book-button {
+  width: 100%;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  margin-top: 0;
+  padding: 10px 0;
+}
+
+#owner-img {
+  padding: 25px;
+  padding-bottom: 0px;
+}
+
+#space-show-owner-name {
+  color: rgb(29, 149, 203);
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.sidebar-bottom {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 10px;
+}
+
+.tab-box-wrapper  {
+  width: 682px;
+  height: 338px;
+  display: block;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  background: #F8F8F8;
+  border: 1px solid #F0F0F0;
+  margin-bottom: 20px;
+}
+
+.tab-box {
+  position: relative;
+  clear: both;
+}
+
+.tab-box > .tab {
+  float:left;
+}
+
+.tab-box > .tab > label {
+  background: #eee;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-left: -1px;
+  position: relative;
+  left: 1px;
+  width: 100px;
+  text-align: center;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.tab-box > .tab > input[type=radio] {
+  display: none;
+}
+
+.tab-box > .tab > .tab-content {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 640px;
+  height: 260px;
+}
+
+.tab-box > .tab > input[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+
+.tab-box > .tab > input[type=radio]:checked ~ label ~ .tab-content {
+  z-index: 1;
+}
+
+/* line 5, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+section {
+  display: inline;
+}
+
+/* line 9, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.sidebar {
+  width: 250px;
+}
+
+/* line 13, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.left-sidebar {
+  float: left;
+  width: 250px;
+}
+
+/* line 18, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.right-sidebar {
+  float: right;
+  width: 250px;
+}
+
+/* line 23, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+#spaces-index-list {
+  float: right;
+}
+
+/* line 27, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.list-item {
+  width: 720px;
+  padding: 10px;
+  border-bottom: 1px solid #CCC;
+}
+
+/* line 33, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.list-item:first-child {
+  border-top: 1px solid #CCC;
+}
+
+/* line 37, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.list-item > header {
+  float: left;
+}
+
+/* line 41, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.list-item > .price-data {
+  float: right;
+}
+
+/* line 45, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.list-item > header > h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 50, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.list-item > header > h4 {
+  font-size: 13px;
+}
+
+/* line 54, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.list-item > .price-wrapper {
+  float: right;
+}
+
+/* line 58, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.list-item > .price-wrapper > .price-data {
+  font-size: 36px;
+}
+
+/* line 62, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.list-item > .price-wrapper > .price-data > sup {
+  font-size: 24px;
+}
+
+/* line 66, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.list-item > .price-wrapper > div {
+  display: block;
+  font-size: 13px;
+  text-align: right;
+}
+
+/* line 72, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.non-sidebar {
+  width: 700px;
+  display: inline-block;
+}
+
+/* line 77, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.tab-box {
+  display: inline-block;
+}
+
+/* line 81, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.tab-data {
+  display: inline-block;
+  float: right;
+}
+
+/* line 86, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.space-map {
+  width: 300px;
+  height: 300px;
+}
+
+/* line 91, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.space-image-wrapper {
+  position: relative;
+}
+
+/* line 95, /Users/apple/cloudbnb/app/assets/stylesheets/spaces.css.scss */
+.space-image-wrapper > .map-number {
+  position: absolute;
+  background: white;
+  left: -125px;
+  top: 1px;
+  padding: 3px;
+  color: #929292;
+  font-size: 13px;
+}
+#user-image {
+ margin: 0 20px;
+ margin-top: 20px;
+}
+
+#user-show-sidebar {
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+}
+
+#user-show-username {
+  padding-bottom: 20px;
+}
