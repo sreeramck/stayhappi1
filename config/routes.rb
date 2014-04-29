@@ -3,6 +3,10 @@ AirbnbClone::Application.routes.draw do
   root :to => 'root#root'
 
   resources :users,    only: [:new, :create, :show]
+  
+  get 'aboutus' => "pages#aboutus"
+  get 'terms' => "pages#terms"
+  get 'policies' => "pages#policies"
 
   resource  :session,  only: [:new, :create, :destroy] do
     member do
