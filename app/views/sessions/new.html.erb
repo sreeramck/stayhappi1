@@ -21,9 +21,10 @@
       <%= tag "input", type: "submit",
                       value: "Sign in",
                       class: "button blue input-large label-offset-button" %>
+						  <div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="false" data-auto-logout-link="false"></div>
 </form>
 
-<%= button_to "Sign in via fb", guest_user_sign_in_session_url,
+<!-- <%= button_to "Sign in via fb", guest_user_sign_in_session_url,
                       method: :put,
                        class: "button blue input-large label-offset-button",
-                          id: "guest-user-button" %>
+                          id: "guest-user-button" %> -->
