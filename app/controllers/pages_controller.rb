@@ -9,5 +9,8 @@ class PagesController < ApplicationController
   def policies
   end
   
+  def contact
+  end
+  
 
 end

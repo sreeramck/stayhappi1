@@ -7,6 +7,7 @@ AirbnbClone::Application.routes.draw do
   get 'aboutus' => "pages#aboutus"
   get 'terms' => "pages#terms"
   get 'policies' => "pages#policies"
+  get 'contact' => "pages#contact"
 
   resource  :session,  only: [:new, :create, :destroy] do
     member do
